@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.title_type1{
+	text-align: center;
+	font-weight: 700;
+	margin: 45px;
+}
+.title_type2{
+	font-size: 45px;
+	text-align: center;
+	font-weight: 700;
+	margin: 45px;
+}
+
+*{
+	font-family: Unbounded, sans-serif;
+	font-weight: 400;
+}
+.logo{
+	font-size: 30px;
+	font-weight: 700;
+	transition: all .2s ease-in-out;
+	border-bottom: 0px solid #FF6000;
+	border-top: 0px solid;
+	color: white;
+	text-decoration: none;
+}
+.logo:hover{
+	color: #4637c8;
+}
+body{
+	background-color: black;
+	color: white;
+}
+.nav__links{
+	list-style-type: none;
+	display: flex;
+}
+.nav__link{
+	text-decoration: none;
+	color: white;
+	padding-left: 30px;
+	transition: all .1s ease-in-out;
+}
+.nav__link:hover{
+	color: #4637c8;
+	text-decoration: underline;
+}
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.header-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+	align-items: center;
+}
+@media screen and (max-width: 1100px){
+	.logo{
+		font-size: 25px;
+	}
+	.nav__link{
+		font-size: 15px;
+		transition: all .1s ease-in-out;
+		padding-left: 15px;
+	}
+	.section-panel__img{
+		width: 350px;
+	}
+	.section-panel__wcimg{
+		width: 450px;
+	}
+}
+@media screen and (max-width: 900px){
+	.logo{
+		font-size: 15px;
+	}
+}
+/* Begin Panel Code */
+
+.section-panels{
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: -65px;
+	/* This fixes the giant space between the same classes, but the drawback is the weird problem of the class going up ontop of stuff. Wish I could find a better method... Too bad! */
+	display: flex;
+	flex-direction: row;
+}
+.section-panel{
+	word-break: keep-all;
+	white-space: pre-wrap;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.section-panel__text{
+	font-size: 25px;
+	font-weight: 200;
+	margin-bottom: -45px;
+	/* This fixes the giant space between the same classes. Wish I could find a better method... Too bad! */
+}
+.section-panel__title{
+	text-align: center;
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: -35px;
+	/* This fixes the giant space between the same classes. Wish I could find a better method... Too bad! */
+	}
+.section-panel__img{
+	border-radius: 5px;
+	display: block; 
+	margin:0 auto;	
+	width: 350px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.section-panel__wcimg{
+	border-radius: 5px;
+	display: block; 
+	margin:0 auto;	
+	width: 750px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+@media screen and (max-width: 1100px){
+	.section-panel__text{
+		font-size: 15px;
+	}
+	.section-panel__title{
+		font-size: 35px;
+	}
+	.section-panel__img{
+		width: 350px;
+	}
+	.section-panel__wcimg{
+		width: 450px;
+	}
+}
+@media screen and (max-width: 900px){
+	.section-panel__text{
+		font-size: 10px;
+	}
+	.section-panel__title{
+		font-size: 25px;
+	}
+	.section-panel__img{
+		width: 250px;
+	}
+	.section-panel__wcimg{
+		width: 350px;
+	}
+}
+@media screen and (max-width: 600px){
+	.section-panel__wcimg{
+		width: 250px;
+	}
+}
+/* End Panel Code */
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+div.gallery__container{
+    margin-bottom: 450px;
+}
+div.gallery img {
+    width: 700px;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.section-info{
+    margin-bottom: 250px;
+}
+/* Begin Footer Code */
+footer{
+	user-select: none;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	font-size: 15px;
+	text-align: center;
+}

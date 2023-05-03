@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+/* Begin Portfolio Quote Code */
+.section-quote{
+	border-radius: 2px;
+	height: 500px;
+	background-size: cover;
+	background-position: center -45px;
+	background-repeat: no-repeat;
+	background-image: url("../img/bg_quote.png");
+	margin-bottom: 65px;
+	/* A dumb compensation for the giant space fix. */
+}
+.section-quote__wrapper{
+	padding-top: 10%;
+	padding-left: 5%;
+}
+.section-quote__title{
+	user-select: none;
+	font-weight: 700;
+	width: 65%;
+	line-height: 65px;
+	font-size: 55px;
+	text-shadow: 3px 3px black;
+}
+@media screen and (max-width: 1100px){
+	.section-quote__title{
+		font-size: 40px;
+	}
+	.section-quote{
+		border-radius: 2px;
+		height: 400px;
+	}
+}
+@media screen and (max-width: 900px){
+	.section-quote__title{
+		font-size: 30px;
+	}
+	.section-quote{
+		border-radius: 2px;
+		height: 350px;
+	}
+}
+@media screen and (max-width: 600px){
+	.section-quote__title{
+		font-size: 20px;
+	}
+	.section-quote{
+		border-radius: 2px;
+		height: 270px;
+	}
+}
+/* End Mod Quote Code */
+.section-abilities__title{
+    margin-top: -45px;
+    text-align: center;
+    font-size: 25px;
+}
+.section-abilities__leftbox{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-image:url(../img/tab1.png);
+    background-size: cover;
+    height:100px;
+}
+.section-abilities__middlebox{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-image:url(../img/tab2.png);
+    background-size: cover;
+    height:100px;
+}
+.section-abilities__rightbox{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-image:url(../img/tab3.png);
+    background-size: cover;
+    height:100px;
+}
+.section-abilities__text {
+    user-select: none;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+}

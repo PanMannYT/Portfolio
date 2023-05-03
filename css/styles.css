@@ -1,0 +1,77 @@
+*{
+    font-family: Arial, sans-serif;
+    color: white;
+}
+body{
+    background-color: #000000;
+}
+.navbar{
+    overflow: hidden;
+    margin: 0;
+    background-color: #001D48;
+}
+.navbar__logo{
+    font-weight: 900;
+    font-size: 25px;
+}
+.section__top{
+    background-image: url("../img/bg_quote.png");
+    max-width: 1360px;
+    height: 500px;
+
+}
+h1{
+
+}
+.29_2 { 
+	overflow:hidden;
+}
+
+.e29_2 { 
+	width:1920px;
+	height:1032px;
+	position:absolute;
+}
+.e14_9 { 
+	width:1920px;
+	height:1032px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e1_3 { 
+	background-image:linear-gradient(0deg, rgba(72.24999949336052, 0, 43.349992856383324, 1) 7.29166641831398%,rgba(0, 0, 0, 0.6899999976158142) 100%) ;
+    width:auto;
+	height:90px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.logo { 
+	color:rgba(255, 255, 255, 1);
+	width:150px;
+	height:50px;
+	position:absolute;
+	left:21px;
+	top:21px;
+	font-family:Unbounded;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e2_6 { 
+	box-shadow:6px 6px 2px rgba(0, 0, 0, 0.6499999761581421);
+	color:rgba(255, 255, 255, 1);
+	width:817px;
+	height:238px;
+	position:absolute;
+	left:73px;
+	top:401px;
+	font-family:Unbounded;
+	text-align:left;
+	font-size:96px;
+	letter-spacing:0;
+}
